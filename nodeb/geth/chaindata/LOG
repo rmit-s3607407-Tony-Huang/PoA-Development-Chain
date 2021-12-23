@@ -1,0 +1,30 @@
+=============== Dec 23, 2021 (AEDT) ===============
+12:08:17.474987 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:08:17.478984 db@open opening
+12:08:17.479982 version@stat F·[] S·0B[] Sc·[]
+12:08:17.480981 db@janitor F·2 G·0
+12:08:17.480981 db@open done T·1.9973ms
+12:08:17.495973 db@close closing
+12:08:17.496971 db@close done T·997.9µs
+=============== Dec 23, 2021 (AEDT) ===============
+12:15:44.371516 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:15:44.371516 version@stat F·[] S·0B[] Sc·[]
+12:15:44.371516 db@open opening
+12:15:44.372517 journal@recovery F·1
+12:15:44.380512 journal@recovery recovering @1
+12:15:44.388506 memdb@flush created L0@2 N·624 S·50KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v363"
+12:15:44.395501 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:15:44.400497 db@janitor F·3 G·0
+12:15:44.400497 db@open done T·28.9809ms
+12:33:28.175566 db@close closing
+12:33:28.176566 db@close done T·999.6µs
+=============== Dec 23, 2021 (AEDT) ===============
+12:33:45.912549 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:33:45.913548 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:33:45.913548 db@open opening
+12:33:45.913548 journal@recovery F·1
+12:33:45.919543 journal@recovery recovering @3
+12:33:45.921542 memdb@flush created L0@5 N·33 S·1KiB "Dat..ion,v626":"r\x00\x00..+\xed\x95,v654"
+12:33:45.928537 version@stat F·[2] S·52KiB[52KiB] Sc·[0.50]
+12:33:45.932534 db@janitor F·4 G·0
+12:33:45.932534 db@open done T·18.9861ms
